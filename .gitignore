@@ -1,3 +1,9 @@
 /*.tmp
 build/
 .gradle
+.nb-gradle/
+.gradle/
+.settings/
+.classpath
+.project
+.keep
