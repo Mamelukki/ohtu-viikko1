@@ -55,7 +55,7 @@ public class VarastoTest {
     @Test
     public void konstruktoriAsettaaSaldonOikeinKunTilavuusOnAlleSaldon() {
         varasto2 = new Varasto(2, 4);
-        assertEquals(2, varasto2.getSaldo(), vertailuTarkkuus);
+        assertEquals(4, varasto2.getSaldo(), vertailuTarkkuus);
     }
 
     @Test
